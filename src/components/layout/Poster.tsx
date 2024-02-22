@@ -2,7 +2,7 @@ import { creditCards, listItems } from '@/constants'
 import Check from '../icons/Check'
 import { inter, montserrat } from '@/app/layout'
 import Shield from '../icons/Shield'
-import Lock from '../icons/Lock'
+import Footer from './Footer'
 
 export default function Poster() {
   return (
@@ -109,12 +109,7 @@ export default function Poster() {
                   />
                 ))}
               </div>
-              <div className='flex items-center justify-center h-[19px] gap-2 mt-3'>
-                <Lock />
-                <p className='text-[#A6A6A6] font-medium text-[12px] leading-[18.5px] mt-[5px]'>
-                  All transactions are secure and encrypted
-                </p>
-              </div>
+              <Footer />
             </div>
           </div>
         </div>
